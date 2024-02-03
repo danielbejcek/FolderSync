@@ -21,7 +21,6 @@ parser = argparse.ArgumentParser(
         prog='Veeam Task',
         description='Synchronization of two folders.')
 parser.add_argument("interval",type=int,help="Time between each synchronization.")
-parser.add_argument("sync_logFile")
 args = parser.parse_args()
 
 
